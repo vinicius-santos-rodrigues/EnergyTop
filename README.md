@@ -22,4 +22,22 @@ Aprendizados aplicados
 - Uso de joins e filtros em consultas
 - Tratamento de erros e mensagens do SQLiteStudio
 
+  
+Scripts incluídos
 
+- `Criar_Tabelas.sql`: Criação das tabelas com chaves primárias e estrangeiras
+- `INSERT.sql`: Povoamento das tabelas principais
+- `SELECT.sql`: Consultas com JOIN, WHERE, ORDER BY, LIMIT
+- `UPDATE.sql`: Atualizações condicionais
+- `DELETE.sql`: Exclusões com segurança
+
+
+Como executar os scripts no SQLiteStudio
+
+1. Abra o SQLiteStudio
+2. Crie um novo banco de dados (`banco_baterias.db`)
+3. Vá em `Tools → Open SQL Editor`
+4. Cole e execute os scripts na ordem:
+   - `Criar_Tabelas.sql`
+   - `INSERT.sql`
+   - `SELECT.sql`, `UPDATE.sql`, `DELETE.sql`
